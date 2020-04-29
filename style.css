@@ -1,0 +1,30 @@
+.cell {
+  border: 1px solid black;
+  width: 3em;
+  height: 3em;
+  background: white;
+  float: left;
+}
+
+.row {
+  clear: left;
+}
+
+
+.first { border-left: 2px solid black; }
+.last { border-right: 2px solid black; }
+.top { border-top: 2px solid black; }
+.bottom { border-bottom: 2px solid black; }
+
+.valid { background-color: red; }
+.visited { background-color: blue; }
+
+
+#knight {
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
